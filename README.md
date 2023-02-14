@@ -1,4 +1,4 @@
-# SharedMexExample
+# mex-example-cpp-api
 This project is intended to provide several Mex examples using MATLAB's C++ API and Boost integration.  It is intended as (essentially) a step-by-step tutorial for how to write Mex functions using the C++ API, primarily geared towards Windows users.  Testing was done using a Visual C++ 2022 (C) compiler and Visual Studio 2022, with MATLAB 2022b.
 
 # Windows Step-By-Step Example:
