@@ -99,7 +99,7 @@ For more information on the code itself, see the comments within the source file
 Boost and matlab employ different tolerancing strategies in their integrators.  Specifically, BOOST keeps an integration step if 
 $$\begin{equation}
     e_i \leq \varepsilon_{abs}
-$$\end{equation}
+\end{equation}$$
 
 ## Using Debug configuration
 If you build your solution using objects compiled with the Debug specification, mexing may not work correctly.  Recompile your code using a Release configuration.
