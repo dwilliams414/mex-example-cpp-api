@@ -97,7 +97,7 @@ For more information on the code itself, see the comments within the source file
 # Pitfalls
 ## BOOST vs. MATLAB Error Tolerancing
 Boost and matlab employ different tolerancing strategies in their integrators.  Specifically, BOOST keeps an integration step if 
-$$e_i \leq \varepsilon_{abs}$$
+$$e_i \leq \varepsilon_{abs}+\varepsilon_{rel}(a_1|\bar{x}|+a_2|\frac{d\bar{x}}{dt}|dt)$$
 
 ## Using Debug configuration
 If you build your solution using objects compiled with the Debug specification, mexing may not work correctly.  Recompile your code using a Release configuration.
