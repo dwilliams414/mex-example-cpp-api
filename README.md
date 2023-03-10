@@ -107,3 +107,6 @@ If you build your solution using objects compiled with the Debug specification, 
 
 ## VS Compiler Warnings
 Often, the Visual Studio compiler will give warnings when compiling your mex code.  Do not be alarmed, some parts of the mexApiAdapterImpl.hpp necessary for mexing do things that the Visual Studio compiler does not like.  One common warning is `C26478 Don't use std::move on constant variables`.
+
+## Build to .dll vs .lib
+Note that a .lib build does not work for mexing.  A .dll build is required as specified in Visual Studio.
